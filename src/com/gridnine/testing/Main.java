@@ -27,7 +27,7 @@ public class Main {
         }
     }
     private static void filterByArrivalBeforeDeparture(List<Flight> flights) {
-        System.out.println("Перелеты с сегментами, где дата прилета раньше даты вылета:");
+        System.out.println("Перелеты, где дата прилета раньше даты вылета:");
         for (Flight flight : flights) {
             boolean hasInvalidSegment = false;
             for (int i = 0; i < flight.getSegments().size() - 1; i++) {
@@ -53,6 +53,7 @@ public class Main {
     }
 
     private static long calculateGroundTime(Flight flight) {
+        //Вычисляем общее время на земле для перелета
         long groundTime = 0;
         for (int i = 0; i < flight.getSegments().size() - 1; i++) {
             groundTime += flight.getSegments().get(i).getArrivalDate().until(flight.getSegments().get(i + 1).getDepartureDate(), ChronoUnit.MILLIS);
