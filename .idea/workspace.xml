@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e225f32-2aa1-43c8-aa68-3a9e8e1adca0" name="Changes" comment="Completed task" />
+    <list default="true" id="9e225f32-2aa1-43c8-aa68-3a9e8e1adca0" name="Changes" comment="Добавлен мой проект">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716916242517</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавлен мой проект">
+      <created>1716916441448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716916441448</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed task" />
+    <MESSAGE value="Добавлен мой проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен мой проект" />
   </component>
 </project>
